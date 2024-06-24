@@ -1,0 +1,6 @@
+step 1: npm i ejs;
+step 2: app.set("view engine","ejs");
+step 3: create a views folder
+step 4: create a view index.ejs file.
+step 5: Load the html in the ejs page
+step 6: use res.render in place of res.send to render any page from views folder.
