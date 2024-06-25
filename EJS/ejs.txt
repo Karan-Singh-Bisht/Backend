@@ -4,3 +4,12 @@ step 3: create a views folder
 step 4: create a view index.ejs file.
 step 5: Load the html in the ejs page
 step 6: use res.render in place of res.send to render any page from views folder.
+
+//Form handling
+step 1: form jab bhi submit karoge pahli cheej ye dekhiye ki saari fields ke pass name property hai ya nhi.
+step 2: form ke pass action hai ya nhi
+step 3: backend ke pass route hai ya nhi
+step 4: wo route ke type sahi hai ya nhi
+step 5: route ke andar aapko data unke type ke hisaab se milega.
+    GET - req.query
+    POST - req.body
